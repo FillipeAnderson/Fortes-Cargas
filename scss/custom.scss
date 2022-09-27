@@ -1,0 +1,43 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$fc-yellow-light: #FCDF67;
+$fc-yellow: #FECE08;
+$fc-yellow-dark: #F0BF1F;
+$fc-red-light: #F24E52;
+$fc-red: #E6262B;
+$fc-red-dark: #CC0409;
+$fc-gray-light: #F5F5F5;
+$fc-gray: #E4E4E4;
+$fc-gray-dark: #C9C9C9;
+$fc-black-light: #66605C;
+$fc-black: #353230;
+$fc-black-dark: #292523;
+$fc-green:   #0ABF32;
+$primary:  $fc-yellow;
+
+$theme-colors: (
+  "fc-yellow-light": $fc-yellow-light,
+  "fc-yellow": $fc-yellow,
+  "fc-yellow-dark": $fc-yellow-dark,
+  "fc-red-light": $fc-red-light,
+  "fc-red": $fc-red,
+  "fc-red-dark": $fc-red-dark,
+  "fc-gray-light": $fc-gray-light,
+  "fc-gray": $fc-gray,
+  "fc-gray-dark": $fc-gray-dark,
+  "fc-black-light": $fc-black-light,
+  "fc-black": $fc-red,
+  "fc-black-dark": $fc-black-dark,
+  "success": $fc-green,
+
+  ) !default;
+
+  $hr-color: $fc-black-dark;
+
+  $component-active-color:      $fc-black !default;
+  $component-active-bg:         $fc-yellow !default;
+  $table-striped-bg-factor:     .03 !default;
+
+  $nav-tabs-border-color:   $fc-gray;
+  
+ 
